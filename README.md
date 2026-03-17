@@ -101,14 +101,5 @@ http://localhost:5173
 
 ---
 
-## 📈 Améliorations futures
-- 🔐 Authentification utilisateurs
-- 🗄️ Backend (API REST)
-- 📊 Dashboard RH
-- 🌙 Dark mode
-- ☁️ Déploiement (Vercel / Netlify)
-
----
-
 ## 📄 Licence
 Ce projet est sous licence MIT.
