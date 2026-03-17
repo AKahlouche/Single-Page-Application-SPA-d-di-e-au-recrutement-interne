@@ -1,16 +1,114 @@
-# React + Vite
+# 🚀 HR Connect Elite – Application SPA de recrutement interne
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Description
+HR Connect Elite est une **Single Page Application (SPA)** moderne dédiée à la gestion du recrutement interne au sein d’une entreprise.  
+L'application permet de rechercher, consulter et gérer des profils d’employés de manière rapide, intuitive et performante.
 
-Currently, two official plugins are available:
+Ce projet met en avant une architecture moderne frontend avec React et une expérience utilisateur optimisée.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🧠 Objectifs du projet
+- Faciliter le recrutement interne
+- Centraliser les informations des employés
+- Offrir une interface fluide et responsive
+- Simuler une application RH professionnelle
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ⚙️ Technologies utilisées
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+- ⚛️ React (Vite)
+- 🎨 CSS modulaire
+- 📦 JavaScript ES6+
+
+### Outils & environnement
+- ⚡ Vite
+- 🧪 ESLint
+- 🔧 Git & GitHub
+
+---
+
+## 📁 Structure du projet
+
+```
+hr-connect-elite/
+│── public/
+│── src/
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   ├── App.jsx
+│   ├── main.jsx
+│── package.json
+│── vite.config.js
+```
+
+---
+
+## ✨ Fonctionnalités
+
+- 🔍 Recherche d’employés
+- 👤 Affichage des profils (UserCard)
+- 📄 Navigation entre pages (Home, Directory, Team)
+- 🚫 Page 404 personnalisée
+- 🧩 Composants réutilisables (Header, Footer, etc.)
+- ⚡ Application rapide (SPA)
+
+---
+
+## 🚀 Installation
+
+### 1. Cloner le projet
+```bash
+git clone https://github.com/AKahlouche/Single-Page-Application-SPA-d-di-e-au-recrutement-interne.git
+```
+
+### 2. Accéder au dossier
+```bash
+cd hr-connect-elite
+```
+
+### 3. Installer les dépendances
+```bash
+npm install
+```
+
+### 4. Lancer le projet
+```bash
+npm run dev
+```
+
+---
+
+## 🌐 Accès
+L'application sera disponible sur :  
+http://localhost:5173
+
+---
+
+## 📸 Aperçu
+> Ajoute ici une capture d’écran de ton application pour améliorer ton GitHub
+
+---
+
+## 🧑‍💻 Auteur
+**Arezki Kahlouche**  
+- 🎓 Étudiant en programmation a la cite collegiale au Canada  
+- 💡 Passionné par le développement web et l’intelligence artificielle  
+- 🔗 LinkedIn : https://www.linkedin.com/in/arezki-kahlouche-3b7575215/
+
+---
+
+## 📈 Améliorations futures
+- 🔐 Authentification utilisateurs
+- 🗄️ Backend (API REST)
+- 📊 Dashboard RH
+- 🌙 Dark mode
+- ☁️ Déploiement (Vercel / Netlify)
+
+---
+
+## 📄 Licence
+Ce projet est sous licence MIT.
